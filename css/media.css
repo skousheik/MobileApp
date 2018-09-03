@@ -1,0 +1,327 @@
+/*XS*/
+@media (max-width: 767px) { 
+	.header-section{
+	background-image : url(../images/sydney.jpg);
+	background-repeat: no-repeat;
+	background-size  : cover;
+	position         : relative;
+}
+
+.header-section:before{
+	content         : "";
+	position        : absolute;
+	background-color: #d44141b3;
+	top             : 0;
+	left            : 0;
+	width           : 100%;
+	height          : 100%;
+}
+
+
+.download{
+	text-align   : center;
+	padding      : 80px 0;
+	margin-bottom: 50px;
+}
+.download h1{
+	margin        : 0;
+
+	text-transform: uppercase;
+
+	font-weight   : 600;
+
+	color         : #eee;
+}
+.download p{
+	color     : #eee;
+	
+	max-width : 700px;
+	
+	margin-top: 15px;
+}
+.download button, .download button:hover {
+
+	background-color: black;
+
+	color           : #eee;
+
+	border-radius   : 20px;
+
+	text-transform  : uppercase;
+
+	padding         : 10px 15px;
+
+	margin-top      : 10px;
+}
+
+.mobile{}
+.mobile img{
+	width     : 200px;
+	float     : right;
+	margin-top: 80px;
+	display: none;
+}
+
+.navbar-default {
+
+	background-color: transparent;
+	border-color    : transparent;
+
+}
+
+.navbar-default .navbar-brand {
+
+	color         : #fff;
+	text-transform: uppercase;
+	font-size     : 20px;
+
+}
+
+
+.navbar-default .navbar-nav > li > a {
+
+	color         : #fff;
+	text-transform: capitalize;
+	padding       : 14px 15px;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+	background-color: transparent;
+	border-bottom   : 2px solid #fff;
+	color           : #fff;
+
+}
+
+.features-section{
+	padding: 80px 0px;
+}
+.heading{
+	text-align   : center;
+	color        : #7e7e7e;
+}
+.heading h1{
+	text-transform: uppercase;
+	font-weight   : 600;
+}
+.heading p{
+	max-width: 500px;
+	margin   : 0 auto;
+}
+
+.features{
+	text-align: center;
+	padding   : 25px 0;
+	}
+.features img{
+	width        : 150px;
+	
+	height       : 150px;
+	
+	margin       : 0 auto;
+	
+	border-radius: 50%;
+	
+	border       : 1px solid #c9c9c9;
+	
+	padding      : 5px;
+}
+
+.features:hover img{
+	background-color  : #bf4a45;
+	transition        : all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition   : all 0.4s;
+}
+.features h3{
+	text-transform: uppercase;
+	
+	font-size     : 20px;
+	
+	font-weight   : 600;
+}
+.features p{
+
+	color    : #7e7e7e;
+	
+	max-width: 350px;
+	
+	margin   : 0 auto;
+}
+
+.clown-section{
+	background-color   : #d2d2d2;
+	background-image   : none;
+	background-repeat  : no-repeat;
+	background-position: 100%;
+	background-size    : 500px;
+}
+.clown{
+	
+	padding: 80px 0px;
+	text-align: center;
+
+	}
+.clown h1{
+	margin        : 0;
+	text-transform: uppercase;
+	font-weight   : 600;
+	color         : #eee;
+}
+.clown h1 span{
+	color: #dd2a20;
+}
+.clown p{
+	color        : #656565;
+	max-width    : 700px;
+	margin-top   : 15px;
+	margin-bottom: 15px;
+}
+.clown button{
+	
+	background-color: #dd2a20;
+	color           : #eee;
+	border-radius   : 20px;
+	text-transform  : uppercase;
+	padding         : 10px 15px;
+	font-size       : 12px;
+}
+
+.testimonial-section{
+
+	padding: 80px 0px;
+}
+.testimonial{
+
+	text-align: center;
+}
+.testimonial p{
+
+	max-width    : 500px;
+	margin       : 0 auto;
+	font-size    : 20px;
+	color        : #8d8d8d;
+	margin-bottom: 20px;
+}
+.testimonial h4{
+
+	color         : #dd2a20;
+	margin-bottom : 15px;
+	text-transform: uppercase;
+	font-size     : 14px;
+	font-weight   : 600;
+}
+.testimonial ul{
+
+}
+
+.testimonial li{
+
+	width             : 12px;
+	height            : 12px;
+	border            : 1px solid #dd2a20;
+	border-radius     : 50%;
+	padding           : 0;
+	transition        : all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition   : all 0.4s;
+}
+
+.testimonial li:hover{
+
+	background-color: #dd2a20;
+}
+
+footer{
+
+	background-color: #292424;
+	padding         : 80px 0px;
+	color           : #fff;
+}
+
+footer .navbar-brand{
+	color         : #fff;	
+	text-transform: uppercase;	
+	font-size     : 20px;
+	padding       : 15px 0px;
+}
+
+footer h3{
+
+	text-transform: capitalize;
+	font-size     : 18px;
+	margin-bottom : 15px;
+}
+
+.post{
+	border-top: 1px solid #eee;
+
+	padding-bottom: 15px;
+}
+
+.post li{
+	vertical-align: middle;
+	max-width     : 200px;
+	font-size     : 12px;
+}
+
+.post li img{
+
+	width : 35px;
+	height: 30px;
+}
+
+.post span{
+	text-transform: capitalize;
+}
+
+.post p{
+	font-size: 12px;
+}
+    
+}
+
+/*SM*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	.clown-section{
+	background-color   : #d2d2d2;
+	background-image   : none;
+	background-repeat  : no-repeat;
+	background-position: 100%;
+	background-size    : 500px;
+	}
+
+.clown{
+	
+	padding: 80px 0px;
+	text-align: center;
+
+	}
+
+	.clown p{
+	color        : #656565;
+	max-width    : 700px;
+	margin-top   : 15px;
+	margin-bottom: 15px;
+	}
+
+	.post li{
+		vertical-align: middle;
+		max-width     : 170px;
+		font-size     : 12px;
+	}
+
+	
+ }
+
+ /*MD*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+ }
+
+ /*LG*/
+@media (min-width: 1200) { 
+
+ }
